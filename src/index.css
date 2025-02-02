@@ -1,10 +1,21 @@
 @import "tailwindcss";
 
-* {
+body {
+    color: white;
     font-family: "DM Sans", serif;
     background: #151515;
 }
 
-body {
-    color: white;
+.math {
+    font-family: "Latin Modern Math", "Cambria Math", "STIX Two Math", serif;
+    font-style: italic;
+    margin-right: 2px;
+}
+
+p>a {
+    color: #9090ff;
+}
+
+p>a:hover {
+    color: #7777ee;
 }

@@ -5,7 +5,8 @@ import Navbar from "./Navbar"
 interface Props {
     title: string,
     description?: string,
-    children: JSX.Element
+    children?: JSX.Element,
+    class?: string
 }
 
 export default function Layout(props: Props) {
@@ -14,7 +15,7 @@ export default function Layout(props: Props) {
             <Title>{props.title}</Title>
             {props.description ? <Meta property="description" content={props.description} /> : <></>}
             <Navbar />
-            <div class="flex justify-center my-5 md:my-10">
+            <div class={`flex flex-col items-center my-5 md:my-10 ${props.class}`}>
                 {props.children}
             </div>
         </MetaProvider>

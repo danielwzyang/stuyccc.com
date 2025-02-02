@@ -1,34 +1,23 @@
-## Usage
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+# StuyCCC
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+A website made for Stuyvesant High School's Competitive Coding Club
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+# Development Setup
+Make sure you have Node.js installed, which should come with npm. Open up a terminal in the folder and type `npm install` to install all necessary packages. Next type `npm run dev` to start the development server and open up https://localhost:3000 in your browser to see the site running on your computer. This will update upon any file changes.
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+# Editing Guidelines
+## Posts
+To create a new post, create a markdown file (.md) in the /content/posts folder. You can name this whatever you want.
 
-## Available Scripts
+Next, create frontmatter using the triple dash notation. Include the title, cover, and date. The cover won't be necessary if there isn't a photo. If you do have a photo, please upload it in the /public/posts folder. (Please crop it!!!!) Then in the frontmatter, provide the file path to that image relative to the public folder. For example, if I upload an image called "pclassic2024f.png" in the /public/posts folder, the frontmatter will look like the following.
 
-In the project directory, you can run:
+    ---
+	title: PClassic Spring 2024 Results
+	cover: /posts/pclassic2024s.png
+	date: 04/10/24
+	---
 
-### `npm run dev` or `npm start`
+Please note that the title and date won't flag an error if they're missing but they are required for display. The date format must be in the form DD/MM/YY.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+Below the frontmatter is where the content is stored. You can use html syntax as well as some basic syntax. For example, math symbols can be written using the \$ sign. \$x\$ will display an algebraic symbol, $x$. Links can be created using the HTML anchor tag. Double line breaks can be created using two \<br/\> tags. Other markdown syntaxes don't seem to work, such as # for headers, so stick to using HTML tags if you need more flexibility.
