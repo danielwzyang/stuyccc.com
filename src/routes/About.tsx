@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import HoverTooltip from "../components/HoverTooltip"
 import Layout from "../components/Layout"
 import Leadership from "../components/Leadership"
 
@@ -7,18 +8,22 @@ export default function About() {
         <Layout title="About">
             <h1 class="font-bold text-xl text-pretty text-center max-w-[80vw] mt-10">We are the Competitive Coding Club at Stuyvesant High School. We learn and practice competitive programming to foster a community of passionate programmers.</h1>
             <div class="flex space-x-4 mt-5">
-                <a
-                    href="https://epsilon.stuysu.org/stuyccc"
-                    class="w-[50px] h-[50px] flex justify-center items-center border border-[#434343] rounded-xl bg-[#1c1c1c]"
-                >
-                    <img src="/icons/epsilon.png" alt="epsilon" height="22" width="22" />
-                </a>
-                <a
-                    href="https://discord.gg/hjcpxfDbdS"
-                    class="w-[50px] h-[50px] flex justify-center items-center border border-[#434343] rounded-xl bg-[#1c1c1c]"
-                >
-                    <img src="/icons/discord.png" alt="discord" height="25" width="25" />
-                </a>
+                <HoverTooltip text="Visit Epsilon">
+                    <a
+                        href="https://epsilon.stuysu.org/stuyccc"
+                        class="w-[50px] h-[50px] flex justify-center items-center border border-[#434343] rounded-xl bg-[#1c1c1c]"
+                    >
+                        <img src="/icons/epsilon.png" alt="epsilon" height="22" width="22" />
+                    </a>
+                </HoverTooltip>
+                <HoverTooltip text="Visit Discord">
+                    <a
+                        href="https://discord.gg/hjcpxfDbdS"
+                        class="w-[50px] h-[50px] flex justify-center items-center border border-[#434343] rounded-xl bg-[#1c1c1c]"
+                    >
+                        <img src="/icons/discord.png" alt="discord" height="25" width="25" />
+                    </a>
+                </HoverTooltip>
             </div>
 
             <Header title="2024-25" class="mt-20 mb-3 sm:mb-5" />
