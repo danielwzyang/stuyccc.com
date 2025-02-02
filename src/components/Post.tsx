@@ -8,7 +8,7 @@ interface Props {
 export default function Post(props: Props) {
     const date = formatDate(props.date)
 
-    return <div class="bg-[#1c1c1c] border border-[#434343] w-[90%] max-w-[600px] p-6 rounded-2xl block space-y-5">
+    return <div class="bg-[#1c1c1c] border border-[#434343] p-6 rounded-2xl block space-y-5">
         <div>
             <h1 class="text-3xl font-bold">{props.title}</h1>
             <h1 class="text-[#bfbfbf] mt-2">{date}</h1>

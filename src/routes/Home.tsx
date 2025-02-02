@@ -1,5 +1,5 @@
 import { createResource, For, Show } from "solid-js"
-import Post from "../components/home/Post"
+import Post from "../components/Post"
 import Layout from "../components/Layout"
 import { getPosts } from "../util/markdown"
 

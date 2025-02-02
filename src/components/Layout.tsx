@@ -15,7 +15,7 @@ export default function Layout(props: Props) {
             <Title>{props.title}</Title>
             {props.description ? <Meta property="description" content={props.description} /> : <></>}
             <Navbar />
-            <div class={`flex flex-col items-center my-5 md:my-10 ${props.class}`}>
+            <div class={`flex flex-col items-center mx-auto my-5 md:my-10 w-[90%] max-w-[600px] ${props.class}`}>
                 {props.children}
             </div>
         </MetaProvider>
