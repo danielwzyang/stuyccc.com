@@ -1,0 +1,572 @@
+[
+    {
+        "name": "Stacks, Queues, and Linked Lists",
+        "date": "01/30/25",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1YkAsMLCH-Xjy59PjWl-Ve7AbO2VVfATzsKZ0C4yjSlc"
+    },
+    {
+        "name": "General Practice Problem",
+        "date": "01/16/25",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#1_04"
+    },
+    {
+        "name": "Binary Search",
+        "date": "01/09/25",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1WouT-LtjJXL3aA2hwDFlnBshR-vwtmugKuVRjIx6Lvk"
+    },
+    {
+        "name": "Sliding Window and Two Pointers",
+        "date": "12/19/24",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1Ng-id3HpwND26dYVDNgwMZi2ZEFDuGKOUTAJBg-Kr98/edit?usp=sharing"
+    },
+    {
+        "name": "Difference Arrays and Prefix Sum Practice",
+        "date": "12/12/24",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1Q31u4q_RXLe4x-wK4bgWLiDxhWZKTTTIxRg79VSJsiw/edit?usp=sharing"
+    },
+    {
+        "name": "Prefix Sums",
+        "date": "12/05/24",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1kafs-ENleDrZxMKUS--Mtw3ge96uoXRCxrOHmO6tTlM/edit?usp=sharing"
+    },
+    {
+        "name": "2D Arrays and Constraints",
+        "date": "11/14/24",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1_FTh3PVJtXGbEeuUIzOuFs29SLytBQvaSJLm1XPIaTs/edit?usp=sharing"
+    },
+    {
+        "name": "Practice and review of IO/lists",
+        "date": "11/07/24",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2024_25/11_07.html"
+    },
+    {
+        "name": "Library Functions and Practice",
+        "date": "10/31/24",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2024_25/10_31.html"
+    },
+    {
+        "name": "While loops, For loops, Time Complexity, Lists/Arrays",
+        "date": "10/24/24",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1Zd7fN1Ve8YC3JfTXX54dcLOh_krX9mk5GViWopwyQJQ/edit?usp=sharing"
+    },
+    {
+        "name": "Variables, Input/Output, “If” Conditionals, Math operators, Functions",
+        "date": "10/10/24",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1Nk4g5XkPt7QF_WDPX_17tuweL-0DdRQCTegQSK6cV3U/edit?usp=sharing"
+    },
+    {
+        "name": "Fundamentals of Programming",
+        "date": "10/05/23",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1eqVMioTOBUyEt2TJfbUTXVS8PcWecFhxeEgWy7rAY8Q/edit?usp=sharing"
+    },
+    {
+        "name": "While loops, For loops, Intro to Time Complexity, and Lists/Arrays",
+        "date": "10/12/23",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/10mE_GzCy4ZiQ0pV29NoX7fV7MxxXpRHfeKfMxn8llek/edit?usp=sharing"
+    },
+    {
+        "name": "Review with input/output (IO) and lists",
+        "date": "10/19/23",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#10_19"
+    },
+    {
+        "name": "2D Arrays and Understanding Constraints",
+        "date": "10/26/23",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1rjJiwwsuYGVWunVmY0zUc54n4gns2yHHtBuGp7Ppeqc/edit?usp=sharing"
+    },
+    {
+        "name": "Sorting",
+        "date": "11/02/23",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/11_02.html"
+    },
+    {
+        "name": "Novice Meet #4 Practice Problems",
+        "date": "11/09/23",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#11_09"
+    },
+    {
+        "name": "Prefix Sums",
+        "date": "11/20/23",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1aqz62rkEJtbJugKpilz9YvgTBJOyrCmEHfLslGXph_M/edit?usp=sharing"
+    },
+    {
+        "name": "Practicing Prefix Sums",
+        "date": "11/30/23",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/11_30.html"
+    },
+    {
+        "name": "Difference Arrays and Two Pointers",
+        "date": "12/14/23",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1dYSI8vYDRJUu-5MnLejrlnINZV5ClJkgGoOJglCP15E/edit#slide=id.p"
+    },
+    {
+        "name": "General Practice Problem",
+        "date": "01/04/24",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#1_04"
+    },
+    {
+        "name": "Stacks, Queues, and Linked Lists",
+        "date": "02/01/24",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1v0pHAfChlIx39stxO9wBUvszVXxKv5QqjT0NSkw9xWI/edit?usp=sharing"
+    },
+    {
+        "name": "Heaps & Binary Search Trees",
+        "date": "02/08/24",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1p_zRRDdgLAgoF7eW1YcK2mOEa8Sc1eZAK_8cd9bFDF0/edit?usp=sharing"
+    },
+    {
+        "name": "Tricks and Applications of Heaps and BSTs",
+        "date": "02/15/24",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1aVpkVvf95huKT_VXIw4imzh4YFskneGeG6akODIcbes/edit?usp=sharing"
+    },
+    {
+        "name": "Maps, Sets, Number Theory",
+        "date": "02/29/24",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/document/d/1EJHa3v8jqURReLOHTZQwGf_tBYpaZFRMWWX2EkGDnVg/edit?usp=sharing"
+    },
+    {
+        "name": "Math Practice",
+        "date": "03/07/24",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#3_07"
+    },
+    {
+        "name": "Intro to Graph Theory",
+        "date": "03/28/24",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1jsaEqGegH6x5UGTSg0xm-C_qJvNMyfSqIFUjmrq1EZY/edit?usp=sharing"
+    },
+    {
+        "name": "DFS Practice",
+        "date": "04/04/24",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#4_04"
+    },
+    {
+        "name": "Tree Algorithms (Bottom Up DFS and Tree Diameter)",
+        "date": "04/11/24",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#4_11"
+    },
+    {
+        "name": "Tree Algorithm Practice",
+        "date": "04/18/24",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#4_18"
+    },
+    {
+        "name": "Multi-source BFS",
+        "date": "05/02/24",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#5_02"
+    },
+    {
+        "name": "More General Practice",
+        "date": "05/09/24",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#5_09"
+    },
+    {
+        "name": "Directed Graphs (Topological Sort and Functional Graphs)",
+        "date": "05/16/24",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#5_16"
+    },
+    {
+        "name": "More Tree Algorithm Practice",
+        "date": "05/23/24",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#5_23"
+    },
+    {
+        "name": "Segment Tree",
+        "date": "05/30/24",
+        "difficulty": "Beginner",
+        "link": "https://docs.google.com/presentation/d/1JTTBhhe64XSQJagy5mOWlJsNM4r_7ZxXo0zSb74-XDU/edit?usp=sharing"
+    },
+    {
+        "name": "Binary Search",
+        "date": "10/10/23",
+        "difficulty": "Advanced",
+        "link": "https://docs.google.com/presentation/d/1yYnZPHuy6h2dmRv6m6GYeMhLHKD1zIQ7TYX-BAgpb6o/edit?usp=sharing"
+    },
+    {
+        "name": "Practice with Prefix Sums and Binary Search",
+        "date": "10/16/23",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/479640"
+    },
+    {
+        "name": "Intro to Data Structures",
+        "date": "10/30/23",
+        "difficulty": "Advanced",
+        "link": "https://docs.google.com/presentation/d/11tHxr08-it2QOujUKTsmxB8TOxKWv9osQWKrKpPn1K0/edit"
+    },
+    {
+        "name": "Team Practice",
+        "date": "11/06/23",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/484171"
+    },
+    {
+        "name": "Intro to Bitwise",
+        "date": "11/20/23",
+        "difficulty": "Advanced",
+        "link": "https://docs.google.com/presentation/d/1Ujz-YFP9Ahd0R-vmiG7X-G6-e-Q0z0JTJJfQqQ47xqo/edit?usp=sharing"
+    },
+    {
+        "name": "More on Bitwise",
+        "date": "12/11/23",
+        "difficulty": "Advanced",
+        "link": "https://docs.google.com/presentation/d/1D0OneIx5f4opWZeqg45nK2QLI4BFsa0x-9m3co8TRoQ/edit#slide=id.p"
+    },
+    {
+        "name": "Meet in the Middle",
+        "date": "12/18/23",
+        "difficulty": "Advanced",
+        "link": "https://docs.google.com/presentation/d/14mVnRBfL1mPPfTBGdVfRGnOQtFtmLQEPGA-VArzkx0U/edit#slide=id.p"
+    },
+    {
+        "name": "Dynamic Programming",
+        "date": "01/07/24",
+        "difficulty": "Advanced",
+        "link": "https://docs.google.com/presentation/d/1cWXQR4EPpE70Tkur7hvTzr_ghvFuhvD7UOg6H63-gsE/edit?usp=sharing"
+    },
+    {
+        "name": "Dijkstra, Coordinate Compression",
+        "date": "02/12/24",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/lessons_2023_24/2_12.html"
+    },
+    {
+        "name": "Practice #1",
+        "date": "02/26/24",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/506684"
+    },
+    {
+        "name": "Practice #2",
+        "date": "03/04/24",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/507182"
+    },
+    {
+        "name": "Practice #3",
+        "date": "03/11/24",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/509837"
+    },
+    {
+        "name": "Practice #4",
+        "date": "03/18/24",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/510870"
+    },
+    {
+        "name": "PClassic Practice",
+        "date": "03/25/24",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/513208"
+    },
+    {
+        "name": "Practice #5",
+        "date": "04/08/24",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/516672"
+    },
+    {
+        "name": "Practice #7",
+        "date": "05/06/24",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/521288"
+    },
+    {
+        "name": "Practice #8 (Graphs)",
+        "date": "05/13/24",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/521293"
+    },
+    {
+        "name": "Practice #9",
+        "date": "05/20/24",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/525370"
+    },
+    {
+        "name": "Practice #10",
+        "date": "05/27/24",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/525972"
+    },
+    {
+        "name": "Practice #11",
+        "date": "06/06/24",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/521467"
+    },
+    {
+        "name": "Practice #12",
+        "date": "06/13/24",
+        "difficulty": "Advanced",
+        "link": "https://codeforces.com/group/O7gdNvlx4L/contest/529467"
+    },
+    {
+        "name": "Hello World!",
+        "date": "10/12/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2022_23/helloworld.html"
+    },
+    {
+        "name": "Variables",
+        "date": "10/17/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2022_23/variables.html"
+    },
+    {
+        "name": "Conditionals",
+        "date": "10/24/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2022_23/conditionals.html"
+    },
+    {
+        "name": "Loops",
+        "date": "10/31/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2022_23/loops.html"
+    },
+    {
+        "name": "Functions",
+        "date": "11/28/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2022_23/functions.html"
+    },
+    {
+        "name": "Arrays",
+        "date": "12/05/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2022_23/arrays.html"
+    },
+    {
+        "name": "Sorting",
+        "date": "01/03/23",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2022_23/sorting.html"
+    },
+    {
+        "name": "Vectors",
+        "date": "01/10/23",
+        "difficulty": "Beginner",
+        "link": "https://replit.com/@ybenp/CCC-Beginner-Lesson-8"
+    },
+    {
+        "name": "Vectors continued & General Problem Solving",
+        "date": "01/17/23",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2022_23/vectors.html"
+    },
+    {
+        "name": "Hello World!",
+        "date": "10/04/21",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/helloworld.html"
+    },
+    {
+        "name": "Data Types",
+        "date": "10/12/21",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/datatypes.html"
+    },
+    {
+        "name": "Arithmetic Operations",
+        "date": "10/18/21",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/operators.html"
+    },
+    {
+        "name": "If, For, And While",
+        "date": "11/01/21",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/ifloops.html"
+    },
+    {
+        "name": "Practice Part 1",
+        "date": "11/08/21",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/practice1.html"
+    },
+    {
+        "name": "Functions",
+        "date": "11/22/21",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/functions.html"
+    },
+    {
+        "name": "Arrays",
+        "date": "11/29/21",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/arrays.html"
+    },
+    {
+        "name": "Practice Part 2",
+        "date": "11/05/21",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/practice2.html"
+    },
+    {
+        "name": "Recursion",
+        "date": "01/03/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/recursion.html"
+    },
+    {
+        "name": "Debugging",
+        "date": "01/24/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/debugging.html"
+    },
+    {
+        "name": "Vectors And Basic STL",
+        "date": "02/07/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/vectors.html"
+    },
+    {
+        "name": "Intro To Sets",
+        "date": "02/28/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/sets.html"
+    },
+    {
+        "name": "Maps And Pairs",
+        "date": "05/16/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/maps.html"
+    },
+    {
+        "name": "Stacks",
+        "date": "05/30/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/stacks.html"
+    },
+    {
+        "name": "Queues",
+        "date": "06/06/22",
+        "difficulty": "Beginner",
+        "link": "https://www.stuyccc.com/interim/pages/beginner_2021_22/queues.html"
+    },
+    {
+        "name": "Time Complexity And A Problem",
+        "date": "10/05/21",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/intermediate/time_complexity.html"
+    },
+    {
+        "name": "Two Problems",
+        "date": "10/26/21",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/intermediate/two_problems.html"
+    },
+    {
+        "name": "Input And Output",
+        "date": "11/09/21",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/intermediate/io.html"
+    },
+    {
+        "name": "Prefix Sums",
+        "date": "11/23/21",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/intermediate/prefix.html"
+    },
+    {
+        "name": "Random Math",
+        "date": "12/14/21",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/intermediate/math.html"
+    },
+    {
+        "name": "Binary Search",
+        "date": "01/12/22",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/intermediate/binary_search.html"
+    },
+    {
+        "name": "Sorting",
+        "date": "01/19/22",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/intermediate/sorting.html"
+    },
+    {
+        "name": "Graph Intro",
+        "date": "03/01/22",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/intermediate/graph.html"
+    },
+    {
+        "name": "Segment Trees",
+        "date": "10/04/21",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/advanced/segtree.html"
+    },
+    {
+        "name": "Segment Tree Practice",
+        "date": "10/18/21",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/advanced/segtreepractice.html"
+    },
+    {
+        "name": "Intro To Bitwise",
+        "date": "11/01/21",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/advanced/bitwise1.html"
+    },
+    {
+        "name": "Continuing Bitwise",
+        "date": "11/08/21",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/advanced/bitwise2.html"
+    },
+    {
+        "name": "Bitwise DP",
+        "date": "11/29/21",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/advanced/bitwisedp.html"
+    },
+    {
+        "name": "Continuing Bitwise DP",
+        "date": "12/06/21",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/advanced/bitwisedp2.html"
+    },
+    {
+        "name": "Knuth-Morris-Pratt",
+        "date": "05/17/22",
+        "difficulty": "Advanced",
+        "link": "https://www.stuyccc.com/interim/pages/advanced/kmp.html"
+    }
+]

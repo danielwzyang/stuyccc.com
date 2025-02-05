@@ -1,8 +1,9 @@
 import { createSignal, JSX } from "solid-js"
 
 interface Props {
-    text: string,
+    text: string
     children: JSX.Element
+    class?: string
 }
 
 export default function HoverTooltip(props: Props) {
@@ -14,7 +15,7 @@ export default function HoverTooltip(props: Props) {
         setMouseY(event.clientY + window.scrollY)
     }
 
-    return <div onMouseMove={handleMouseMove} class="group">
+    return <div onMouseMove={handleMouseMove} class={`group ${props.class}`}>
         {props.children}
         <div
             class="opacity-0 group-hover:opacity-100 transition-opacity duration-250 absolute bg-[#1C1C1C] border border-[#434343] py-1 px-4 rounded-2xl"
