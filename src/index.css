@@ -6,12 +6,6 @@ body {
 	background: #151515;
 }
 
-.math {
-	font-family: "Latin Modern Math", "Cambria Math", "STIX Two Math", serif;
-	font-style: italic;
-	margin-right: 2px;
-}
-
 p > a {
 	color: #9090ff;
 }

@@ -1,10 +1,16 @@
 
 import { marked } from "marked"
+import katex from "katex"
 import fm from "front-matter"
 
 function parseMarkdown(text: string) {
-    return (marked.parse(text) as string)
-        .replace(/\$(.*?)\$/g, (_, math) => `<span class="math">${math}</span>`)
+    return (marked.parse(text
+        .replace(/<java>(.*?)<\/java>/gs, (_, code) => `<pre><code class="language-java">${code}</code></pre>`)
+        .replace(/<python>(.*?)<\/python>/gs, (_, code) => `<pre><code class="language-python">${code}</code></pre>`)
+        .replace(/<cpp>(.*?)<\/cpp>/gs, (_, code) => `<pre><code class="language-cpp">${code}</code></pre>`)
+        .replace(/\$(.*?)\$/g, (_, math) => katex.renderToString(math))
+    ) as string)
+
 }
 
 function processFile(text: string) {
