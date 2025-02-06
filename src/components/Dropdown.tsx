@@ -24,7 +24,7 @@ export default function Dropdown(props: Props) {
         </div>
 
         <div
-            class={`flex-col absolute top-10 bg-[#1c1c1c] border border-[#434343] py-3 px-4 rounded-2xl transition ${open() ? "opacity-100" : "opacity-0"}`}
+            class={`flex-col absolute top-10 bg-[#1c1c1c] border border-[#434343] py-3 px-4 rounded-2xl transition ${open() ? "opacity-100" : "-z-1 opacity-0"}`}
             onMouseLeave={() => setOpen(false)}
         >
             {props.children}
