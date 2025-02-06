@@ -11,6 +11,7 @@ export default function Lessons() {
 
     const [lessons, setLessons] = createSignal(sorted.filter((lesson) => !isArchive(lesson.date)))
     const [view, setView] = createSignal(0)
+    const [viewSize, setViewSize] = createSignal(5)
     const [completed, setCompleted] = createSignal<string[]>(JSON.parse(localStorage.getItem("completedLessons")!) || [])
     const [viewArchives, setViewArchives] = createSignal(false)
     const [hideCompleted, setHideCompleted] = createSignal(false)
@@ -42,7 +43,7 @@ export default function Lessons() {
             })
         )
 
-        setView(Math.min(view(), Math.floor(lessons().length / 5) * 5))
+        setView(Math.min(view(), Math.floor(lessons().length / viewSize()) * viewSize()))
     }
 
     return (
@@ -105,7 +106,7 @@ export default function Lessons() {
                         <h1 class="text-center font-bold text-xl text-[#bfbfbf]">No lessons found.</h1>
                     }
                 >
-                    <For each={lessons().slice(view(), Math.min(view() + 5, lessons().length))}
+                    <For each={lessons().slice(view(), Math.min(view() + viewSize(), lessons().length))}
                     >
                         {(lesson) => (
                             <Lesson
@@ -119,18 +120,38 @@ export default function Lessons() {
                         )}
                     </For>
 
-                    <div class="ml-auto flex space-x-5">
-                        <button aria-label="page left" onclick={() => setView(view() - 5)} disabled={view() == 0}>
-                            <svg width="24px" height="24px" stroke={view() == 0 ? `#bfbfbf` : "white"} stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="rotate-180">
-                                <path d="m9 18 6-6-6-6" />
-                            </svg>
-                        </button>
-                        <h1 class="font-bold text-xl">{view() + 1}-{Math.min(view() + 5, lessons().length)} of {lessons().length}</h1>
-                        <button aria-label="page right" onclick={() => setView(view() + 5)} disabled={lessons().length - view() <= 5}>
-                            <svg width="24px" height="24px" stroke={lessons().length - view() <= 5 ? `#bfbfbf` : "white"} stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="m9 18 6-6-6-6" />
-                            </svg>
-                        </button>
+                    <div class="flex ml-2">
+                        <div class="flex space-x-2 font-bold text-xl text-[#a0a0a0]">
+                            <h1>n</h1>
+                            <h1>=</h1>
+                            <For each={[5, 10, 15]}>
+                                {
+                                    size => (
+                                        <button 
+                                            onclick={() => setViewSize(size)} 
+                                            disabled={size == viewSize()}
+                                            class={size != viewSize() ? "text-[#a0a0a0] cursor-pointer" : "text-white"}    
+                                        >
+                                            {size}{size != 15 ? "," : ""}
+                                        </button>
+                                    )
+                                }
+                            </For>
+                        </div>
+
+                        <div class="ml-auto flex space-x-5">
+                            <button aria-label="page left" onclick={() => setView(view() - viewSize())} disabled={view() == 0}>
+                                <svg width="24px" height="24px" stroke={view() == 0 ? `#bfbfbf` : "white"} stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="rotate-180">
+                                    <path d="m9 18 6-6-6-6" />
+                                </svg>
+                            </button>
+                            <h1 class="font-bold text-xl">{view() + 1}-{Math.min(view() + viewSize(), lessons().length)} of {lessons().length}</h1>
+                            <button aria-label="page right" onclick={() => setView(view() + viewSize())} disabled={lessons().length - view() <= viewSize()}>
+                                <svg width="24px" height="24px" stroke={lessons().length - view() <= viewSize() ? `#bfbfbf` : "white"} stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="m9 18 6-6-6-6" />
+                                </svg>
+                            </button>
+                        </div>
                     </div>
                 </Show>
             </div>
