@@ -1,22 +1,25 @@
 import Layout from "../components/Layout"
 import Lesson, { isArchive } from "../components/Lesson"
 import json from "../../content/lessons.json"
-import { createSignal, For, Show } from "solid-js"
+import { createSignal, For, onMount, Show } from "solid-js"
 import Checkbox from "../components/Checkbox"
 import Dropdown from "../components/Dropdown"
+import { reverse } from "dns"
 
 export default function Lessons() {
     const sorted = json.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     console.log(sorted)
 
-    const [lessons, setLessons] = createSignal(sorted.filter((lesson) => !isArchive(lesson.date)))
+    const [lessons, setLessons] = createSignal(sorted)
     const [view, setView] = createSignal(0)
     const [viewSize, setViewSize] = createSignal(5)
     const [completed, setCompleted] = createSignal<string[]>(JSON.parse(localStorage.getItem("completedLessons")!) || [])
-    const [viewArchives, setViewArchives] = createSignal(false)
+    const [viewYears, setViewYears] = createSignal<string[]>([new Date().getFullYear().toString().substring(2)])
     const [hideCompleted, setHideCompleted] = createSignal(false)
     const [viewBeginner, setViewBeginner] = createSignal(true)
     const [viewAdvanced, setViewAdvanced] = createSignal(true)
+
+    onMount(() => { updateLessons() })
 
     function toggleLesson(date: string) {
         setCompleted((old) => {
@@ -26,16 +29,21 @@ export default function Lessons() {
         })
     }
 
+    function toggleYear(year: string) {
+        setViewYears((old) => old.includes(year) ? old.filter((e) => e != year) : [...old, year])
+    }
+
+
     function updateLessons() {
         setLessons(
             sorted.filter((lesson) => {
-                const matchesArchiveFilter = viewArchives() || !isArchive(lesson.date)
+                const matchesYearFilter = viewYears().includes(lesson.date.substring(6))
                 const matchesCompleteFilter = !hideCompleted() || !completed().includes(lesson.date)
                 const matchesBeginnerFilter = viewBeginner() || lesson.difficulty !== "Beginner"
                 const matchesAdvancedFilter = viewAdvanced() || lesson.difficulty !== "Advanced"
 
                 return (
-                    matchesArchiveFilter &&
+                    matchesYearFilter &&
                     matchesCompleteFilter &&
                     matchesBeginnerFilter &&
                     matchesAdvancedFilter
@@ -75,22 +83,30 @@ export default function Lessons() {
                         </div>
                     </Dropdown>
 
-                    <div class="flex gap-2 items-center">
-                        <h1 class="font-bold text-xl">View archives</h1>
-                        <Checkbox
-                            initial={viewArchives()}
-                            onClick={() => {
-                                setViewArchives(!viewArchives())
-                                updateLessons()
-                            }}
-                            class="scale-75"
-                        />
-                    </div>
+                    <Dropdown title="Years">
+                        <For each={Array(new Date().getFullYear() - 2020).fill(null).map((_, i) => String(i + 21)).reverse()}>
+                            {
+                                year => (
+                                    <div class="flex gap-2 items-center">
+                                        <h1 class="font-bold text-lg">20{year}</h1>
+                                        <Checkbox
+                                            class="ml-auto scale-75"
+                                            initial={viewYears().includes(year)}
+                                            onClick={() => {
+                                                toggleYear(year)
+                                                updateLessons()
+                                            }}
+                                        />
+                                    </div>
+                                )
+                            }
+                        </For>
+                    </Dropdown>
 
                     <div class="flex gap-2 items-center">
                         <h1 class="font-bold text-xl">Hide completed</h1>
                         <Checkbox
-                            initial={viewArchives()}
+                            initial={hideCompleted()}
                             onClick={() => {
                                 setHideCompleted(!hideCompleted())
                                 updateLessons()
@@ -127,10 +143,10 @@ export default function Lessons() {
                             <For each={[5, 10, 15]}>
                                 {
                                     size => (
-                                        <button 
-                                            onclick={() => setViewSize(size)} 
+                                        <button
+                                            onclick={() => setViewSize(size)}
                                             disabled={size == viewSize()}
-                                            class={size != viewSize() ? "text-[#a0a0a0] cursor-pointer" : "text-white"}    
+                                            class={size != viewSize() ? "text-[#a0a0a0] cursor-pointer" : "text-white"}
                                         >
                                             {size}{size != 15 ? "," : ""}
                                         </button>
