@@ -20,14 +20,14 @@ Next, create frontmatter using the triple dash notation. Include the title, cove
 
 Please note that the title and date won't flag an error if they're missing but they are required for display. The date format must be in the form DD/MM/YY.
 
-Below the frontmatter is where the content is stored. You can use html syntax as well as some basic syntax. For example, math expressions can be written using the \$ sign. \$x\$ will display an algebraic symbol, $x$. Links can be created using the HTML anchor tag. Double line breaks can be created using two \<br/\> tags. Other markdown syntaxes don't seem to work, such as # for headers, so stick to using HTML tags if you need more flexibility.
+Below the frontmatter is where the content is stored. You can use html syntax as well as some basic syntax. For example, math expressions can be written using the \$ sign. \$x\$ will display an algebraic symbol, $x$. Links can be created using the HTML anchor tag. Line breaks can be created using \<br /\> tags. You can also type \<db /\> for two \<br /\> tags. Other markdown syntaxes don't seem to work, such as # for headers, so stick to using HTML tags if you need more flexibility. This website uses TailwindCSS so you can style tags to your liking using classes. Just make sure to read the documentation for the correct identifiers.
 
 ## Lessons
 To add a new lesson, edit the /content/lessons.json file. A .json file is essentially a giant object and the lessons.json file is a giant array of lesson objects. Those lesson objects have the following properties: name, date, difficulty, and link. Date has to be in the form MM/DD/YY and difficulty has to be either "Beginner" or "Advanced".
 
 You can add a lesson anywhere in the list since the lessons are automatically sorted chronologically. Just make sure that each object in the .json file is separated by a comma, and there's no trailing commas.
 
-You can also create lesson pages using the /content/lessons folder, in which you can add a .md file. The path of these markdown files will be the path on the website. For example, if I create a solutions/problemA.md inside of the /content/lessons folder, I can visit that lesson at stuyccc.com/lessons/problemA. You can use the same basic syntax as the posts, and you can also use formatted code blocks.
+You can also create lesson pages using the /content/lessons folder, in which you can add a .md file. The path of these markdown files will be the path on the website. For example, if I create a solutions/problemA.md inside of the /content/lessons folder, I can visit that lesson at stuyccc.com/lessons/problemA. You can use the same basic syntax as the posts, and you can also use formatted code blocks. Make sure to add a title property inside of the front matter. This will be the title of the page on the tab as well as the header tag inside of the page.
 
 For formatted code blocks, the languages Python, Java, and CPP are supported. Just use the &lt;python>, &lt;java>, and &lt;cpp> tags, respectively. Start your code block with that tag and end its corresponding closing tag: &lt;/python>, &lt;/java>, &lt;/cpp>. 
 

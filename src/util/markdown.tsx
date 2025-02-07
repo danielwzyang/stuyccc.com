@@ -4,13 +4,20 @@ import katex from "katex"
 import fm from "front-matter"
 
 function parseMarkdown(text: string) {
-    return (marked.parse(text
-        .replace(/<java>(.*?)<\/java>/gs, (_, code) => `<pre><code class="language-java">${code}</code></pre>`)
-        .replace(/<python>(.*?)<\/python>/gs, (_, code) => `<pre><code class="language-python">${code}</code></pre>`)
-        .replace(/<cpp>(.*?)<\/cpp>/gs, (_, code) => `<pre><code class="language-cpp">${code}</code></pre>`)
-        .replace(/\$(.*?)\$/g, (_, math) => katex.renderToString(math))
-    ) as string)
-
+    return marked.parse(
+        text
+            .replace(/<java>(.*?)<\/java>/gs, (_, code) => (
+                `<pre><code class="language-java">${code.trim()}</code></pre>`
+            ))
+            .replace(/<python>(.*?)<\/python>/gs, (_, code) => (
+                `<pre><code class="language-python">${code.trim()}</code></pre>`
+            ))
+            .replace(/<cpp>(.*?)<\/cpp>/gs, (_, code) => (
+                `<pre><code class="language-cpp">${code.trim()}</code></pre>`
+            ))
+            .replace(/<db \/>/g, () => `<br /><br />`)
+            .replace(/\$(.*?)\$/g, (_, math) => katex.renderToString(math))
+    ) as string
 }
 
 function processFile(text: string) {

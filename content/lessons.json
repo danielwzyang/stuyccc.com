@@ -45,13 +45,13 @@
         "name": "Practice and review of IO/lists",
         "date": "11/07/24",
         "difficulty": "Beginner",
-        "link": "https://www.stuyccc.com/interim/pages/lessons_2024_25/11_07.html"
+        "link": "../lessons/11-07-24"
     },
     {
         "name": "Library Functions and Practice",
         "date": "10/31/24",
         "difficulty": "Beginner",
-        "link": "https://www.stuyccc.com/interim/pages/lessons_2024_25/10_31.html"
+        "link": "../lessons/10-31/24"
     },
     {
         "name": "While loops, For loops, Time Complexity, Lists/Arrays",
