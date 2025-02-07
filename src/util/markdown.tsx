@@ -40,3 +40,14 @@ export async function getPosts() {
         return dateB.getTime() - dateA.getTime()
     })
 }
+
+const lessons = import.meta.glob("/content/lessons/**/*.md", { query: "?raw", eager: true })
+
+export function lessonExists(id: string) {
+    return `/content/lessons/${id}.md` in lessons
+}
+
+export function getLessonData(id: string) {
+    const content = (lessons[`/content/lessons/${id}.md`] as { default: string }).default
+    return processFile(content)
+}

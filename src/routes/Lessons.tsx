@@ -144,7 +144,10 @@ export default function Lessons() {
                                 {
                                     size => (
                                         <button
-                                            onclick={() => setViewSize(size)}
+                                            onclick={() => {
+                                                setViewSize(size)
+                                                setView(Math.floor(view() / viewSize()) * viewSize())
+                                            }}
                                             disabled={size == viewSize()}
                                             class={size != viewSize() ? "text-[#a0a0a0] cursor-pointer" : "text-white"}
                                         >
