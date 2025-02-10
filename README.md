@@ -34,3 +34,10 @@ For formatted code blocks, the languages Python, Java, and CPP are supported. Ju
 Don't add any extraneous line breaks, including one before the first line of your code block. The first line of the code block should immediately follow the opening tag on the same line, as adding a new line will introduce a new line in the code block as well. The same goes with the last line, in which the closing tag should immediately follow the last line on the same line. 
 
 If you have something that can be interpreted as a tag, for example the &lt;iostream> in the statement `#include <iostream>`, type &lt\; instead of <. If you don't then the text will be interpreted as a tag and will not render as text.
+
+# Writeups
+To add a new writeup, create a new folder in the /content/writeups folder. The name of the folder will be the slug for the link to the writeup. For example, a folder called pclassic2024s stores the files for the writeup that can be found at stuyccc.com/writeups/pclassic2024s. 
+
+In each writeup folder, create a file called 0.md. This will store the info about the writeup itself. In the frontmatter, store the value of the title. Outside of the frontmatter, you can store something to act as a bio/intro that displays below the title in the writeup page.
+
+For each solution, create its own file. It technically doesn't matter what it's called but it would be nice to follow the convention of using the problem number. In the frontmatter, store the title, link, and problem number (with the key problem). Outside of the frontmatter, you can write the code block for the solution using the aforementioned syntax rules and write the explanation underneath. The problems will be sorted by the provided problem number in the frontmatter.

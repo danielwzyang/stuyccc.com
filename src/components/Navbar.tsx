@@ -21,13 +21,14 @@ export default function Navbar() {
         </div>
         <div
             class={`fixed top-0 left-0 backdrop-blur-sm h-screen w-screen transition duration-250 flex flex-col justify-center items-center text-2xl text-center space-y-3
-            ${open() ? "opacity-100" : "opacity-0"}`}
+            ${open() ? "opacity-100" : "opacity-0 -z-1"}`}
+            onclick={() => setOpen(false)}
         >
-            <For each={["About", "Lessons", "Problems", "Resources"]}>
+            <For each={["Home", "About", "Lessons", "Problems", "Resources"]}>
                 {
                     (page, i) => (
                         <a 
-                            href={page.toLowerCase()}
+                            href={`/${page == "Home" ? "" : page.toLowerCase()}`}
                             class={`hover:text-[#606060] w-[240px] py-3 rounded-2xl bg-[#202020] border border-[#434343]
                             transform transition-all duration-500 ease-out 
                             ${
@@ -35,7 +36,7 @@ export default function Navbar() {
                                 ? "translate-x-0 translate-y-0 opacity-100 scale-100" 
                                 : "translate-x-[-100vw] translate-y-[100vh] opacity-0 scale-0"
                             }`}
-                            style={{ "transition-delay": `${i() * 200}ms` }}
+                            style={{ "transition-delay": `${i() * 100}ms` }}
                         >
                             {page}
                         </a>

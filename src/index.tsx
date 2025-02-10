@@ -8,6 +8,7 @@ import Lessons from "./routes/Lessons"
 import Problems from "./routes/Problems"
 import Resources from "./routes/Resources"
 import Lesson from "./routes/lessons/[...id]"
+import Writeup from "./routes/writeups/[...id]"
 
 
 render(
@@ -19,6 +20,7 @@ render(
             <Route path="/problems" component={Problems} />
             <Route path="/resources" component={Resources} />
             <Route path="/lessons/*id" component={Lesson} />
+            <Route path="/writeups/:id" component={Writeup} />
             <Route path="/*" component={NotFound} />
         </Router>
     ),

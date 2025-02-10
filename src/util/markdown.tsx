@@ -58,3 +58,21 @@ export function getLessonData(id: string) {
     const content = (lessons[`/content/lessons/${id}.md`] as { default: string }).default
     return processFile(content)
 }
+
+const writeups = import.meta.glob("/content/writeups/**/*.md", { query: "?raw", eager: true })
+
+export function writeupExists(id: string) {
+    for (const key of Object.keys(writeups))
+        if (key.substring(18).startsWith(id))
+            return true
+    
+    return false
+}
+
+export function getWriteupData(id: string) {
+    const data = []
+    for (const key of Object.keys(writeups))
+        if (key.substring(18).startsWith(id))
+            data.push(processFile((writeups[key] as { default: string }).default))
+    return data.sort((a, b) => a.frontmatter.problem - b.frontmatter.problem)
+}
