@@ -13,9 +13,9 @@ export default function Writeup() {
     console.log(writeup)
 
     return (
-        <Layout title={""}>
+        <Layout title={writeup[0].frontmatter.title} class="max-w-[60%]!">
             <h1 class="font-bold text-2xl">{writeup[0].frontmatter.title}</h1>
-            <div innerHTML={writeup[0].html} class="text-[#bfbfbf] text-lg space-y-5 mt-5 mb-10" />
+            <div innerHTML={writeup[0].html} class="text-[#bfbfbf] text-lg space-y-5 mt-5 mb-10 self-baseline" />
 
             <div class="flex flex-col space-y-5 w-full">
                 <For each={writeup.slice(1)}>
