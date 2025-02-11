@@ -9,7 +9,7 @@ export function PageRedirect(props: Props) {
     return <a class="group bg-[#1c1c1c] border border-[#434343] p-6 rounded-2xl flex items-center w-full relative transition overflow-hidden hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.1)]" href={props.link}>
         <div>
             <div
-                class="absolute inset-0 bg-cover bg-left-top opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-[2px]"
+                class="absolute inset-0 bg-cover bg-left-top opacity-0 group-hover:opacity-20 transition-opacity duration-300 blur-[2px]"
                 style={{
                     "background-image": `url(${props.image})`,
                     "mask-image": "linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0))",
