@@ -112,20 +112,6 @@ export default function Resources() {
                     image="/pages/spoj.png"
                     bio="Test and submit solutions"
                 />
-
-                <PageRedirect
-                    title="PKU Judge"
-                    link="http://poj.org/"
-                    image="/pages/poj.png"
-                    bio="Test and submit solutions"
-                />
-
-                <PageRedirect
-                    title="Oj"
-                    link="https://oj.uz/"
-                    image="/pages/oj.png"
-                    bio="Test and submit solutions"
-                />
             </div>
 
             <div class="space-y-5 w-full">
