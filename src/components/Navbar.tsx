@@ -21,7 +21,7 @@ export default function Navbar() {
         </div>
         <div
             class={`fixed top-0 left-0 backdrop-blur-sm h-screen w-screen transition duration-250 flex flex-col justify-center items-center text-2xl text-center space-y-3
-            ${open() ? "opacity-100" : "opacity-0 -z-1"}`}
+            ${open() ? "opacity-100 z-100" : "opacity-0 -z-1"}`}
             onclick={() => setOpen(false)}
         >
             <For each={["Home", "About", "Lessons", "Problems", "Resources"]}>
