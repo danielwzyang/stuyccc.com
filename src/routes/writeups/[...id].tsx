@@ -2,12 +2,17 @@ import { useParams } from "@solidjs/router"
 import Layout from "../../components/Layout"
 import NotFound from "../NotFound"
 import { getWriteupData, writeupExists } from "../../util/markdown"
-import { For } from "solid-js"
+import { For, onMount } from "solid-js"
 import HoverTooltip from "../../components/HoverTooltip"
+import hljs from "highlight.js"
 
 export default function Writeup() {
     const { id } = useParams()
     if (!writeupExists(id)) return NotFound()
+
+    onMount(() => {
+        hljs.highlightAll()
+    })
 
     const writeup = getWriteupData(id)
 

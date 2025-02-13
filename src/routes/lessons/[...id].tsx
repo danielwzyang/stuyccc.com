@@ -2,10 +2,16 @@ import { useParams } from "@solidjs/router"
 import Layout from "../../components/Layout"
 import { getLessonData, lessonExists } from "../../util/markdown"
 import NotFound from "../NotFound"
+import { onMount } from "solid-js"
+import hljs from "highlight.js"
 
 export default function Lesson() {
     const { id } = useParams()
     if (!lessonExists(id)) return NotFound()
+
+    onMount(() => {
+        hljs.highlightAll()
+    })
 
     const lesson = getLessonData(id)
     console.log(lesson)

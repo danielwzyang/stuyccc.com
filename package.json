@@ -23,6 +23,7 @@
     "@solidjs/router": "^0.15.3",
     "@tailwindcss/vite": "^4.0.1",
     "front-matter": "^4.0.2",
+    "highlight.js": "^11.11.1",
     "katex": "^0.16.21",
     "marked": "^15.0.6",
     "solid-click-outside": "^0.0.1",
