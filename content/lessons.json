@@ -81,7 +81,7 @@
         "name": "Review with input/output (IO) and lists",
         "date": "10/19/23",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#10_19"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#10_19"
     },
     {
         "name": "2D Arrays and Understanding Constraints",
@@ -93,13 +93,13 @@
         "name": "Sorting",
         "date": "11/02/23",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/11_02.html"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/11_02.html"
     },
     {
         "name": "Novice Meet #4 Practice Problems",
         "date": "11/09/23",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#11_09"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#11_09"
     },
     {
         "name": "Prefix Sums",
@@ -111,7 +111,7 @@
         "name": "Practicing Prefix Sums",
         "date": "11/30/23",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/11_30.html"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/11_30.html"
     },
     {
         "name": "Difference Arrays and Two Pointers",
@@ -123,7 +123,7 @@
         "name": "General Practice Problem",
         "date": "01/04/24",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#1_04"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#1_04"
     },
     {
         "name": "Stacks, Queues, and Linked Lists",
@@ -153,7 +153,7 @@
         "name": "Math Practice",
         "date": "03/07/24",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#3_07"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#3_07"
     },
     {
         "name": "Intro to Graph Theory",
@@ -165,43 +165,43 @@
         "name": "DFS Practice",
         "date": "04/04/24",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#4_04"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#4_04"
     },
     {
         "name": "Tree Algorithms (Bottom Up DFS and Tree Diameter)",
         "date": "04/11/24",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#4_11"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#4_11"
     },
     {
         "name": "Tree Algorithm Practice",
         "date": "04/18/24",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#4_18"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#4_18"
     },
     {
         "name": "Multi-source BFS",
         "date": "05/02/24",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#5_02"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#5_02"
     },
     {
         "name": "More General Practice",
         "date": "05/09/24",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#5_09"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#5_09"
     },
     {
         "name": "Directed Graphs (Topological Sort and Functional Graphs)",
         "date": "05/16/24",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#5_16"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#5_16"
     },
     {
         "name": "More Tree Algorithm Practice",
         "date": "05/23/24",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#5_23"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/Problems_Solutions_2023-2024.html#5_23"
     },
     {
         "name": "Segment Tree",
@@ -261,7 +261,7 @@
         "name": "Dijkstra, Coordinate Compression",
         "date": "02/12/24",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/lessons_2023_24/2_12.html"
+        "link": "https://old.stuy.com/interim/pages/lessons_2023_24/2_12.html"
     },
     {
         "name": "Practice #1",
@@ -339,43 +339,43 @@
         "name": "Hello World!",
         "date": "10/12/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2022_23/helloworld.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2022_23/helloworld.html"
     },
     {
         "name": "Variables",
         "date": "10/17/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2022_23/variables.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2022_23/variables.html"
     },
     {
         "name": "Conditionals",
         "date": "10/24/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2022_23/conditionals.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2022_23/conditionals.html"
     },
     {
         "name": "Loops",
         "date": "10/31/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2022_23/loops.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2022_23/loops.html"
     },
     {
         "name": "Functions",
         "date": "11/28/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2022_23/functions.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2022_23/functions.html"
     },
     {
         "name": "Arrays",
         "date": "12/05/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2022_23/arrays.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2022_23/arrays.html"
     },
     {
         "name": "Sorting",
         "date": "01/03/23",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2022_23/sorting.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2022_23/sorting.html"
     },
     {
         "name": "Vectors",
@@ -387,186 +387,186 @@
         "name": "Vectors continued & General Problem Solving",
         "date": "01/17/23",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2022_23/vectors.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2022_23/vectors.html"
     },
     {
         "name": "Hello World!",
         "date": "10/04/21",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/helloworld.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/helloworld.html"
     },
     {
         "name": "Data Types",
         "date": "10/12/21",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/datatypes.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/datatypes.html"
     },
     {
         "name": "Arithmetic Operations",
         "date": "10/18/21",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/operators.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/operators.html"
     },
     {
         "name": "If, For, And While",
         "date": "11/01/21",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/ifloops.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/ifloops.html"
     },
     {
         "name": "Practice Part 1",
         "date": "11/08/21",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/practice1.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/practice1.html"
     },
     {
         "name": "Functions",
         "date": "11/22/21",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/functions.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/functions.html"
     },
     {
         "name": "Arrays",
         "date": "11/29/21",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/arrays.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/arrays.html"
     },
     {
         "name": "Practice Part 2",
         "date": "11/05/21",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/practice2.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/practice2.html"
     },
     {
         "name": "Recursion",
         "date": "01/03/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/recursion.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/recursion.html"
     },
     {
         "name": "Debugging",
         "date": "01/24/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/debugging.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/debugging.html"
     },
     {
         "name": "Vectors And Basic STL",
         "date": "02/07/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/vectors.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/vectors.html"
     },
     {
         "name": "Intro To Sets",
         "date": "02/28/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/sets.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/sets.html"
     },
     {
         "name": "Maps And Pairs",
         "date": "05/16/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/maps.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/maps.html"
     },
     {
         "name": "Stacks",
         "date": "05/30/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/stacks.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/stacks.html"
     },
     {
         "name": "Queues",
         "date": "06/06/22",
         "difficulty": "Beginner",
-        "link": "https://stuyccc.github.io/interim/pages/beginner_2021_22/queues.html"
+        "link": "https://old.stuy.com/interim/pages/beginner_2021_22/queues.html"
     },
     {
         "name": "Time Complexity And A Problem",
         "date": "10/05/21",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/intermediate/time_complexity.html"
+        "link": "https://old.stuy.com/interim/pages/intermediate/time_complexity.html"
     },
     {
         "name": "Two Problems",
         "date": "10/26/21",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/intermediate/two_problems.html"
+        "link": "https://old.stuy.com/interim/pages/intermediate/two_problems.html"
     },
     {
         "name": "Input And Output",
         "date": "11/09/21",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/intermediate/io.html"
+        "link": "https://old.stuy.com/interim/pages/intermediate/io.html"
     },
     {
         "name": "Prefix Sums",
         "date": "11/23/21",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/intermediate/prefix.html"
+        "link": "https://old.stuy.com/interim/pages/intermediate/prefix.html"
     },
     {
         "name": "Random Math",
         "date": "12/14/21",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/intermediate/math.html"
+        "link": "https://old.stuy.com/interim/pages/intermediate/math.html"
     },
     {
         "name": "Binary Search",
         "date": "01/12/22",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/intermediate/binary_search.html"
+        "link": "https://old.stuy.com/interim/pages/intermediate/binary_search.html"
     },
     {
         "name": "Sorting",
         "date": "01/19/22",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/intermediate/sorting.html"
+        "link": "https://old.stuy.com/interim/pages/intermediate/sorting.html"
     },
     {
         "name": "Graph Intro",
         "date": "03/01/22",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/intermediate/graph.html"
+        "link": "https://old.stuy.com/interim/pages/intermediate/graph.html"
     },
     {
         "name": "Segment Trees",
         "date": "10/04/21",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/advanced/segtree.html"
+        "link": "https://old.stuy.com/interim/pages/advanced/segtree.html"
     },
     {
         "name": "Segment Tree Practice",
         "date": "10/18/21",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/advanced/segtreepractice.html"
+        "link": "https://old.stuy.com/interim/pages/advanced/segtreepractice.html"
     },
     {
         "name": "Intro To Bitwise",
         "date": "11/01/21",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/advanced/bitwise1.html"
+        "link": "https://old.stuy.com/interim/pages/advanced/bitwise1.html"
     },
     {
         "name": "Continuing Bitwise",
         "date": "11/08/21",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/advanced/bitwise2.html"
+        "link": "https://old.stuy.com/interim/pages/advanced/bitwise2.html"
     },
     {
         "name": "Bitwise DP",
         "date": "11/29/21",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/advanced/bitwisedp.html"
+        "link": "https://old.stuy.com/interim/pages/advanced/bitwisedp.html"
     },
     {
         "name": "Continuing Bitwise DP",
         "date": "12/06/21",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/advanced/bitwisedp2.html"
+        "link": "https://old.stuy.com/interim/pages/advanced/bitwisedp2.html"
     },
     {
         "name": "Knuth-Morris-Pratt",
         "date": "05/17/22",
         "difficulty": "Advanced",
-        "link": "https://stuyccc.github.io/interim/pages/advanced/kmp.html"
+        "link": "https://old.stuy.com/interim/pages/advanced/kmp.html"
     }
 ]
