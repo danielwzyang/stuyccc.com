@@ -23,7 +23,7 @@ Please note that the title and date won't flag an error if they're missing but t
 Below the frontmatter is where the content is stored. You can use html syntax as well as some basic syntax. For example, math expressions can be written using the \$ sign. \$x\$ will display an algebraic symbol, $x$. Links can be created using the HTML anchor tag. Line breaks can be created using \<br /\> tags. You can also type \<db /\> for two \<br /\> tags. Other markdown syntaxes don't seem to work, such as # for headers, so stick to using HTML tags if you need more flexibility. This website uses TailwindCSS so you can style tags to your liking using classes. Just make sure to read the documentation for the correct identifiers.
 
 ## Lessons
-To add a new lesson, edit the /content/lessons.json file. A .json file is essentially a giant object and the lessons.json file is a giant array of lesson objects. Those lesson objects have the following properties: name, date, difficulty, and link. Date has to be in the form MM/DD/YY and difficulty has to be either "Beginner" or "Advanced".
+To add a new lesson, edit the /content/lessons.json file. A .json file is essentially a giant object and the lessons.json file is a giant array of lesson objects. Those lesson objects have the following properties: name, date, difficulty, and link. Date has to be in the form MM/DD/YY and difficulty has to be either "Novice" or "Advanced".
 
 You can add a lesson anywhere in the list since the lessons are automatically sorted chronologically. Just make sure that each object in the .json file is separated by a comma, and there's no trailing commas.
 

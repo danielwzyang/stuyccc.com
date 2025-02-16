@@ -16,7 +16,7 @@ export default function Lessons() {
     const [completed, setCompleted] = createSignal<string[]>(JSON.parse(localStorage.getItem("completedLessons")!) || [])
     const [viewYears, setViewYears] = createSignal<string[]>([new Date().getFullYear().toString().substring(2)])
     const [hideCompleted, setHideCompleted] = createSignal(false)
-    const [viewBeginner, setViewBeginner] = createSignal(true)
+    const [viewNovice, setViewNovice] = createSignal(true)
     const [viewAdvanced, setViewAdvanced] = createSignal(true)
 
     onMount(() => { updateLessons() })
@@ -39,13 +39,13 @@ export default function Lessons() {
             sorted.filter((lesson) => {
                 const matchesYearFilter = viewYears().includes(lesson.date.substring(6))
                 const matchesCompleteFilter = !hideCompleted() || !completed().includes(lesson.date)
-                const matchesBeginnerFilter = viewBeginner() || lesson.difficulty !== "Beginner"
+                const matchesNoviceFilter = viewNovice() || lesson.difficulty !== "Novice"
                 const matchesAdvancedFilter = viewAdvanced() || lesson.difficulty !== "Advanced"
 
                 return (
                     matchesYearFilter &&
                     matchesCompleteFilter &&
-                    matchesBeginnerFilter &&
+                    matchesNoviceFilter &&
                     matchesAdvancedFilter
                 )
             })
@@ -60,12 +60,12 @@ export default function Lessons() {
                 <div class="mb-5 flex flex-col md:flex-row gap-x-5 gap-y-2 items-center justify-center">
                     <Dropdown title="Difficulty">
                         <div class="flex gap-4 items-center">
-                            <h1 class="font-bold text-lg text-[#22AA77]">Beginner</h1>
+                            <h1 class="font-bold text-lg text-[#22AA77]">Novice</h1>
                             <Checkbox
                                 class="ml-auto scale-75"
-                                initial={viewBeginner()}
+                                initial={viewNovice()}
                                 onClick={() => {
-                                    setViewBeginner(!viewBeginner())
+                                    setViewNovice(!viewNovice())
                                     updateLessons()
                                 }}
                             />
@@ -128,7 +128,7 @@ export default function Lessons() {
                             <Lesson
                                 name={lesson.name}
                                 date={lesson.date}
-                                difficulty={lesson.difficulty as "Beginner" | "Advanced"}
+                                difficulty={lesson.difficulty as "Novice" | "Advanced"}
                                 link={lesson.link}
                                 toggle={toggleLesson}
                                 completed={completed().includes(lesson.date)}

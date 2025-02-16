@@ -5,7 +5,7 @@ import HoverTooltip from "./HoverTooltip"
 interface Props {
     name: string
     date: string
-    difficulty: "Beginner" | "Advanced"
+    difficulty: "Novice" | "Advanced"
     link: string
     toggle: (date: string) => void
     completed: boolean
@@ -26,10 +26,10 @@ export default function Lesson(props: Props) {
                     {props.date}
                 </h1>
 
-                <Show when={props.difficulty == "Beginner"} fallback={
+                <Show when={props.difficulty == "Novice"} fallback={
                     <h1 class="font-bold text-xl text-[#FF5555]">Advanced</h1>
                 }>
-                    <h1 class="font-bold text-xl text-[#22AA77]">Beginner</h1>
+                    <h1 class="font-bold text-xl text-[#22AA77]">Novice</h1>
                 </Show>
 
                 <Show when={isArchive(props.date)}>
