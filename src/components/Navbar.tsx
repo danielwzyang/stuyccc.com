@@ -14,14 +14,14 @@ export default function Navbar() {
             </div>
         </div>
         <div
-            class="fixed lg:hidden left-5 bottom-5 w-12 h-12 flex justify-center items-center bg-[#202020] border border-[#434343] rounded-lg p-2 z-1"
+            class="fixed lg:hidden left-5 bottom-5 w-12 h-12 flex justify-center items-center bg-[#202020] border border-[#434343] rounded-lg p-2 z-100"
             onclick={() => setOpen(!open())}
         >
             <img src={open() ? "/icons/folder-open.svg" : "/icons/folder.svg"} alt="folder" class="w-full" />
         </div>
         <div
             class={`fixed top-0 left-0 backdrop-blur-sm h-screen w-screen transition duration-250 flex flex-col justify-center items-center text-2xl text-center space-y-3
-            ${open() ? "opacity-100 z-100" : "opacity-0 -z-1"}`}
+            ${open() ? "opacity-100 z-99" : "opacity-0 -z-1"}`}
             onclick={() => setOpen(false)}
         >
             <For each={["Home", "About", "Lessons", "Problems", "Resources"]}>
