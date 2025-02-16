@@ -31,6 +31,7 @@ export default function About() {
                 <Leadership name='Chongtian "Mark" Ma' title="President" github="https://github.com/envyaims" />
                 <Leadership name="Matthew Chen" title="President" github="https://github.com/MC3297" />
                 <Leadership name="Ethan Liu" title="Vice President" github="https://github.com/EL101" />
+                <Leadership name="Daniel Yang" title="Web Design" github="https://github.com/danielwzyang" />
                 <Leadership name="Irene Mouzakitis" title="Faculty Advisor" />
             </div>
 
