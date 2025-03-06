@@ -1,5 +1,11 @@
 [
     {
+        "name": "Binary Search Trees",
+        "date": "02/27/25",
+        "difficulty": "Novice",
+        "link": "https://docs.google.com/presentation/d/154T5JYK5N0U-VGBec5CvWsFl56G6lqvR_-x3T555cyE/edit"
+    },
+    {
         "name": "Heaps and Priority Queues",
         "date": "02/13/25",
         "difficulty": "Novice",
