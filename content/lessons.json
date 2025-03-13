@@ -1,5 +1,11 @@
 [
     {
+        "name": "Math and Number Theory for CP",
+        "date": "03/13/25",
+        "difficulty": "Novice",
+        "link": "../lessons/03-13-25"
+    },
+    {
         "name": "Practice with BSTs and Priority Queues",
         "date": "03/06/25",
         "difficulty": "Novice",
