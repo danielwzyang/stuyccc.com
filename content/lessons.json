@@ -1,5 +1,11 @@
 [
     {
+        "name": "Math and Number Theory Continued",
+        "date": "03/27/25",
+        "difficulty": "Novice",
+        "link": "../lessons/03-27-25"
+    },
+    {
         "name": "Math and Number Theory for CP",
         "date": "03/13/25",
         "difficulty": "Novice",
