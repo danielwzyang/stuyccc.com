@@ -13,3 +13,12 @@ p > a {
 p > a:hover {
 	color: #7777ee;
 }
+
+li {
+    list-style-type: disc;
+    margin-left: 25px;
+}
+
+ul li li {
+    list-style-type: circle;
+}
