@@ -1,6 +1,6 @@
 ---
 title: Cornell University High School Programming Contest 2025 Results
-cover: /posts/cornell2025.JPEG
+cover: /posts/cornell2025.jpg
 date: 03/29/25
 ---
 Congratulations to:
