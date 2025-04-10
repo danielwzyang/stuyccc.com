@@ -1,5 +1,11 @@
 [
     {
+        "name": "Intro to Graph Theory",
+        "date": "04/10/25",
+        "difficulty": "Novice",
+        "link": "https://docs.google.com/presentation/d/1q-p4e0ntwoq0BpxSnuvFTUWwsF1jCHnSWi7GzUxueiU/edit?usp=sharing"
+    },
+    {
         "name": "General Review",
         "date": "04/03/25",
         "difficulty": "Novice",
