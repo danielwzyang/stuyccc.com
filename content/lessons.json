@@ -1,5 +1,11 @@
 [
     {
+        "name": "Depth First Search",
+        "date": "04/24/25",
+        "difficulty": "Novice",
+        "link": "https://docs.google.com/presentation/d/14-gnD38spdJD028SYkLcHlO1cHKW3MmAfZnErIaHzC4/edit?usp=sharing"
+    },
+    {
         "name": "Intro to Graph Theory",
         "date": "04/10/25",
         "difficulty": "Novice",
