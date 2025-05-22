@@ -1,5 +1,11 @@
 [
     {
+        "name": "Breadth First Search",
+        "date": "05/22/25",
+        "difficulty": "Novice",
+        "link": "https://docs.google.com/presentation/d/14nbJvcr8nkRW6tZm2_i2DMrz4KRbylA1VXyTJepuhWQ/edit?usp=sharing"
+    },
+    {
         "name": "Depth First Search",
         "date": "04/24/25",
         "difficulty": "Novice",
